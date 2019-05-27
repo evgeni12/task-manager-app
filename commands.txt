@@ -1,2 +1,22 @@
-npm install nodemon@1.2.0 --save-dev
 C:\Users\<user>\mongodb\bin\mongod.exe --dbpath=/Users/<user>/mongodb-data
+
+npm init -y
+npm i mongodb@3.1.10
+npm i validator@10.9.0
+npm i nodemon@1.18.9 --save-dev
+npm i express@4.16.4
+npm i bcrypt@2.4.3
+npm i jsonwebtoken@8.4.0
+npm i multer@1.4.1
+npm i sharp@0.22.1
+npm i @sendgrid/mail@6.3.1
+npm i env-cmd@8.0.2 --save-dev
+
+heroku create <application>
+heroku config:set key=value
+heroku config:unset key
+heroku config
+npm i jest@23.6.0 --save-dev
+npm i supertest@3.4.1 --save-dev
+
+npm test
