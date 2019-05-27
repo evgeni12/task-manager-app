@@ -1,0 +1,2 @@
+npm install nodemon@1.2.0 --save-dev
+C:\Users\<user>\mongodb\bin\mongod.exe --dbpath=/Users/<user>/mongodb-data
